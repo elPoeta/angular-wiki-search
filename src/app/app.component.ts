@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-wiki-search';
-
+  pages = [];
   handlerSubmit(event: string) {
     console.log(event)
   }
