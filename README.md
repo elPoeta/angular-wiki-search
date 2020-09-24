@@ -1,2 +1,2 @@
 # angular-wiki-search
-Angular wikipedia search - wikipedia api
+Angular wikipedia search - wikipedia api - HttpClientModule

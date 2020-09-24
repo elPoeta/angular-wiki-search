@@ -1,4 +1,5 @@
-<table>
+<h2 *ngIf="isLoading">Loading....</h2>
+<table *ngIf="pages.length > 0">
   <tr>
     <th>Title</th>
     <th>word Count</th>
