@@ -14,10 +14,10 @@ export class AppComponent {
   handlerSubmit(event: string) {
     this.isLoading = !this.isLoading;
     this.wiki.search(event)
-      .subscribe((response: any) => {
-        console.log(response.query.search)
+      .subscribe(pages => {
+        console.log(pages)
         this.isLoading = !this.isLoading;
-        this.pages = response.query.search;
+        this.pages = pages;
       })
 
   }
